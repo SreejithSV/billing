@@ -21,7 +21,7 @@ const App = () => (
       <BillingProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/billing/">
           <AppLayout>
             <Routes>
               <Route path="/" element={<Dashboard />} />
